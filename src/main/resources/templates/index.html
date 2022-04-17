@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Welcome </title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container text-center">
+    <h1>Добре дошли</h1>
+    <h2>Кратко описание:</h2>
+    <h3>Често големите компании използват т.нар. ERP системи (Enterprise Resource Planning), за да следят клиенто-потока
+        , приходи и разходи, текущи проекти и изработеното време по тези проекти. За целта, създайте уеб приложение на
+        Spring Boot с база данни с два типа потребители - админ и служител. Аминът ще администрира данните в програмата,
+        а служителят ще може да указва колко време по кой проект е работил.</h3>
+    <h3><a th:href="@{/login}">Логин</a></h3>
+</div>
+</body>
+</html>
